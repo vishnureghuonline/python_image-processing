@@ -1,0 +1,2 @@
+#join space between each 2 char
+st= " ".join(st[i:i+2] for i in range(0, len(st), 2))
